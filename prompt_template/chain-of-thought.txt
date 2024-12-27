@@ -1,0 +1,22 @@
+Phân tích bình luận và phân loại vào một trong ba nhãn: CLEAN, OFFENSIVE, hoặc HATE. Sử dụng hướng dẫn sau:
+    CLEAN: Không có quấy rối, thô tục, hoặc tấn công.
+    OFFENSIVE: Có quấy rối/thô tục nhưng không nhắm vào cá nhân/nhóm cụ thể.
+    HATE: Nhắm vào cá nhân/nhóm cụ thể, có quấy rối, xúc phạm hoặc phân biệt.
+Ví dụ:
+Bình luận: "Đúng là đồ ngốc!"
+Lý do:
+    Có quấy rối/thô tục? → Có.
+    Nhắm vào cá nhân/nhóm cụ thể? → Không.
+Trả lời: OFFENSIVE.
+Bình luận: "Bọn kia không đáng sống!"
+Lý do:
+    Có quấy rối/thô tục? → Có.
+    Nhắm vào cá nhân/nhóm cụ thể? → Có.
+    Mang tính thù hận/phân biệt? → Có.
+Trả lời: HATE.
+Nhiệm vụ:
+Bình luận: "#123123123"
+    Có quấy rối/thô tục?
+    Nhắm vào cá nhân/nhóm cụ thể?
+    Mang tính thù hận/phân biệt?
+Trả lời: [CLEAN/OFFENSIVE/HATE].
